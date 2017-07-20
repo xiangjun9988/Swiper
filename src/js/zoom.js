@@ -176,6 +176,8 @@ s.zoom = {
         if (z.image.currentX > z.image.maxX) {
             z.image.currentX = z.image.maxX - 1 + Math.pow((z.image.currentX - z.image.maxX + 1), 0.8);
         }
+        
+        
 
         if (z.image.currentY < z.image.minY) {
             z.image.currentY =  z.image.minY + 1 - Math.pow((z.image.minY - z.image.currentY + 1), 0.8);
